@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,18 +12,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork_2_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNl-rU-rub">
-                                <rect key="frame" x="20" y="74" width="374" height="175"/>
+                                <rect key="frame" x="20" y="30" width="335" height="175"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="175" id="4iu-Td-FTB"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xmi-Gh-GZM">
-                                <rect key="frame" x="20" y="309" width="374" height="30"/>
+                                <rect key="frame" x="20" y="265" width="335" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKO-3k-vq9">
                                         <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
@@ -44,7 +44,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="p8W-ke-Cu5">
-                                        <rect key="frame" x="120" y="0.0" width="256" height="31"/>
+                                        <rect key="frame" x="120" y="0.0" width="217" height="31"/>
                                         <connections>
                                             <action selector="changeRedSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="eIP-Wv-atd"/>
                                         </connections>
@@ -52,7 +52,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xD6-Br-Kun">
-                                <rect key="frame" x="20" y="349" width="374" height="30"/>
+                                <rect key="frame" x="20" y="305" width="335" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKm-ez-R5X">
                                         <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
@@ -73,7 +73,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JKn-ao-D5o">
-                                        <rect key="frame" x="120" y="0.0" width="256" height="31"/>
+                                        <rect key="frame" x="120" y="0.0" width="217" height="31"/>
                                         <connections>
                                             <action selector="changeGreenSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="SDs-cV-nkC"/>
                                         </connections>
@@ -81,7 +81,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6iH-o9-KPU">
-                                <rect key="frame" x="20" y="389" width="374" height="30"/>
+                                <rect key="frame" x="20" y="345" width="335" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7A-jW-t4r">
                                         <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
@@ -102,7 +102,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mwx-t0-HE8">
-                                        <rect key="frame" x="120" y="0.0" width="256" height="31"/>
+                                        <rect key="frame" x="120" y="0.0" width="217" height="31"/>
                                         <connections>
                                             <action selector="changeBlueSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="tEr-ub-GIg"/>
                                         </connections>
@@ -117,7 +117,6 @@
                             <constraint firstItem="xmi-Gh-GZM" firstAttribute="top" secondItem="DNl-rU-rub" secondAttribute="bottom" constant="60" id="FOZ-TD-FLu"/>
                             <constraint firstItem="6iH-o9-KPU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Idp-lx-vr1"/>
                             <constraint firstItem="xmi-Gh-GZM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aFr-EP-Bey"/>
-                            <constraint firstItem="DNl-rU-rub" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="187:409" id="euZ-le-fEi"/>
                             <constraint firstAttribute="trailing" secondItem="6iH-o9-KPU" secondAttribute="trailing" constant="20" id="hLV-yl-h1O"/>
                             <constraint firstItem="DNl-rU-rub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="hbD-mt-Qqm"/>
                             <constraint firstAttribute="trailing" secondItem="DNl-rU-rub" secondAttribute="trailing" constant="20" id="iki-bc-8Ms"/>
